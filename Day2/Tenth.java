@@ -1,3 +1,4 @@
+
 //10. Take two different string input and print them in same line. E.g.-
 //INPUT : Codes
 //Dope
