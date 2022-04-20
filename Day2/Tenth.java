@@ -10,9 +10,9 @@ public class Tenth {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the First Name: ");
-        String A = scanner.next();
+        String A = scanner.nextLine();
         System.out.println("Enter the Last Name: ");
-        String B = scanner.next();
+        String B = scanner.nextLine();
         System.out.println(A+""+B);
     }
 }
