@@ -37,7 +37,7 @@ public class Marks {
             else if (average >= 60 && average < 70)
                 grade = 'D';
             else if (average >=40&& average <40)
-                grade = 'E'
+                grade = 'E';
             else
                 grade = 'F';
 
