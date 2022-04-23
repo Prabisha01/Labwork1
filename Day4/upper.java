@@ -12,6 +12,7 @@ public class upper {
             if (Character.isUpperCase(val)) {
                 System.out.println("Character is in Uppercase!");
             }
+
             else {
                 System.out.println("Character is in Lowercase!");
             }
