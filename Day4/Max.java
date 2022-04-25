@@ -6,11 +6,14 @@ public class Max {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the first number;");
-        int first = scanner.nextInt();
+        int a = scanner.nextInt();
         System.out.print("Enter the first number;");
-        int second = scanner.nextInt();
+        int b = scanner.nextInt();
         // prints the maximum of two numbers
-        System.out.println(Math.max(first , second));
-
+        if (a > b) {
+            System.out.println(a + " is the greatest number.");
+        } else {
+            System.out.println(b + " is the greatest number.");
+        }
     }
 }
